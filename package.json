@@ -1,0 +1,13 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "landing page for me",
+  "main": "index.js",
+  "scripts": {
+      },
+  "author": "Shain",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
