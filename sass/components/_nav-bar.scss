@@ -1,0 +1,35 @@
+.hamburger {
+    
+    display: block;
+    position: relative;
+
+
+&__hamburger,
+.hamburger::before,
+.hamburger::after {
+    background: $color-primary-light;
+    width: 2em;
+    height: 3px;
+    border-radius: 1em;
+    transition: transform 250ms ease-in-out;
+
+}
+.hamburger::before,
+.hamburger::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+   
+}
+
+.hamburger::before {
+    top: 6px;
+}
+
+.hamburger::after {
+    bottom: 6px; 
+}
+
+
+}
